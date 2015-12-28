@@ -1,0 +1,128 @@
+body{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	margin:0;
+	padding:0;
+	background-color:#cbd1df;
+}
+
+#error{
+	display:none;
+	width:24%;
+	text-align:center;
+	border: 1px solid;
+	margin: 10px auto;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url(../images/error.png);
+}
+
+#container{
+	display:none;
+	padding: 50px;
+	padding-top:0;
+}
+
+#loadingImage{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left: -27px;
+    margin-top: -27px;
+	
+}
+
+#page_header{
+	color:white;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #3b538f;
+	padding:20px;
+	border-bottom: 1px solid #3a558c;
+	position: relative;
+}
+
+#page_header img{
+	position:absolute;
+	top:0;
+	right:10;
+}
+
+.post{
+	margin:0 20px;
+	background-color:#f1f2f6;
+	border:1px solid #c0c4d0;
+	margin:50px auto;
+	-webkit-border-radius:0 0 8px 8px;    
+    border-radius:0 0 8px 8px;
+}
+
+.post:nth-last-child(1){
+	margin: 0;
+}
+
+.post .post_metadata{
+	background-color:#DCDCDC;
+	font-size: small;
+	padding:10px 3px;
+	border-bottom:2px solid gray;
+}
+
+.post .id{
+	float:right;
+	font-size: medium;
+	color: #e54f51;
+}
+
+.post .post_data{
+	margin:15px 15px;
+}
+
+.post .post_data .post_content{
+	margin:15px 0;
+}
+
+.post .label{
+	font-weight: bold;
+}
+
+.post .post_metadata .label{
+	padding: 0 15px;
+}
+
+.post .post_data .parameter{
+	padding-bottom:20px;
+}
+
+.post .label_comments{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.tb_comments{
+	border-bottom: 1px solid black;
+	width:100%;
+	overflow: scroll;
+}
+
+.tb_comments th{
+	font-weight: bold;
+	padding:10px 0;
+}
+
+.tb_comments th:nth-last-child(3),.tb_comments th:nth-last-child(1){
+	padding:0 100px;
+}
+
+.tb_comments tr td{
+	text-align: center;
+	vertical-align: middle;
+	padding:10px 30px;
+}
+
+.tb_comments td:nth-last-child(2), .tb_comments td:nth-last-child(3){
+	text-align: left;
+} 
